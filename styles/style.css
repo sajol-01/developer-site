@@ -6,13 +6,23 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
 /* STYLE STARTED */
+.secondary-background{
+    background: rgba(13, 19, 33, 0.02);
+}
+.third-bg{
+    background: rgba(255, 76, 30, 0.05);
+}
+.fourth-bg{
+    background: rgba(0, 76, 232, 0.05);
+}
+.fifth-bg{
+    background: rgba(255, 223, 0, 0.05);
+}
 /* Navigation Bar */
 .power{
     background-image: url("../assets/Hero-bg.png");
-    
-    height: 652px;
+
     }
 .nav-title{
     color: rgb(13, 19, 33);
@@ -33,7 +43,7 @@ nav{
     justify-content: space-between;
     margin: 0 190px 0 150px;
 }
-/* Section Part */
+/* Section Part 1 */
 
 .section-title{
     color: rgb(13, 19, 33);
@@ -62,5 +72,74 @@ nav{
     text-align: center;
 }
 .image-container{
+    text-align: center;
+}
+/* Section 2 Styles */
+.power-2{
+    margin: 75px 150px;
+    padding: 80px 90px 80px 90px;
+}
+.section-2-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.section-2-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.content-1-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    width: 390px;
+    height: 72px;
+}
+
+.content-button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+.content-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 95px 80px 95px;
+}
+.content-description{
+    
+    width: 450px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33)
+
+}
+.content-2{
+    display: flex;
+    gap: 50px;
+    padding: 80px 95px 80px 95px;
+}
+.content-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 95px 80px 95px;
+}
+/* Section 3 Workstation */
+.work-3{
+    text-align: center;
+    align-items: center;
+}
+.week{
+    margin: 100px 150px 100px 150px;
+}
+.skill-items{
+    display: flex;
+    gap: 25px;
+}
+.content-title{
     text-align: center;
 }
