@@ -6,3 +6,61 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+/* STYLE STARTED */
+/* Navigation Bar */
+.power{
+    background-image: url("../assets/Hero-bg.png");
+    
+    height: 652px;
+    }
+.nav-title{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+.btn-primary{
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    font-weight: 600;
+    background-color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 190px 0 150px;
+}
+/* Section Part */
+
+.section-title{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0%;
+}
+.section-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.btn-secondary{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px;
+    color: rgb(255, 255, 255);
+    font-weight:600;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.btn-container{
+    text-align: center;
+}
+.image-container{
+    text-align: center;
+}
