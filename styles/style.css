@@ -133,13 +133,123 @@ nav{
     text-align: center;
     align-items: center;
 }
-.week{
-    margin: 100px 150px 100px 150px;
-}
+
 .skill-items{
     display: flex;
+    border-radius: 16px;
     gap: 25px;
+    padding: 0px 350px;
+    
 }
 .content-title{
     text-align: center;
 }
+/* Section 4 Workstation  */
+.current{
+    
+    width: 284px;
+    height: 300px;
+}
+.week{
+    margin: 100px 150px 100px 150px;
+}
+/* Section 5 Workstation */
+.frame-10{
+    padding: 40px;
+}
+.section-5{
+    margin: 100px 150px 100px 150px;
+}
+.next-skill{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 20px 40px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+/* .hey-block{
+    display: block;
+} */
+ .img-c{
+    padding-top: 25px;
+    width: 100px;
+    
+ }
+ .sec-5-btn{
+   border: none;
+   background: none;
+   font-weight: bolder;
+   text-decoration: underline;
+ }
+ /* Section 6 Workstation */
+ .last{
+    background-image:url("../assets/handshake.jpg");
+    margin: 80px 300px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    border-radius: 8px;
+ }
+ .last-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+ }
+ .last-des{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+ }
+ .last-div{
+    padding: 64px 48px;
+ }
+ .type-info{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+ }
+ .submit{
+    width: 120px;
+height: 58px;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+ }
+ .form{
+    text-align: center;
+ }
+ /* youtube video */
+ .you{
+    margin: 80px 200px;
+    width: 1076px;
+height: 550px;
+border-radius: 16px;
+ }
+ /* FOOTER */
+ .contact-icon{
+    display: flex;
+    gap: 30px;
+ }
+ .foot-items{
+display: flex;
+padding: 32px 180px;
+justify-content: space-between;
+background-color: #EDF0F8;
+border-radius: 15px;
+
+ }
